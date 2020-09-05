@@ -82,6 +82,7 @@ class TreeSetDemo2
 
 class MyCompare implements Comparator
 {
+    @Override
     public int compare(Object o1,Object o2)
     {
         Student s1 = (Student)o1;
@@ -90,8 +91,9 @@ class MyCompare implements Comparator
         int num = s1.getName().compareTo(s2.getName());
         if(num==0)
         {
+            return s1.getAge() - s2.getAge();
 
-            return Integer.compare(s1.getAge(), s2.getAge());
+//            return Integer.compare(s1.getAge(), s2.getAge());
             // return new Integer(s1.getAge()).compareTo(new Integer(s2.getAge()));
 			/*
 			if(s1.getAge()>s2.getAge())
