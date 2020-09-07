@@ -2,7 +2,7 @@ package Tree_L.BinaryTree_L;
 
 public class JavaBinaryTree {
     public static void main(String[] args) {
-
+        System.out.println();
     }
 }
 
