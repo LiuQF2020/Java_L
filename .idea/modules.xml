@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALiyunDX/ALiyunDX.iml" filepath="$PROJECT_DIR$/ALiyunDX/ALiyunDX.iml" />
       <module fileurl="file://$PROJECT_DIR$/BiXD/BiXD.iml" filepath="$PROJECT_DIR$/BiXD/BiXD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelfStudy/SelfStudy.iml" filepath="$PROJECT_DIR$/SelfStudy/SelfStudy.iml" />
     </modules>
   </component>
 </project>
