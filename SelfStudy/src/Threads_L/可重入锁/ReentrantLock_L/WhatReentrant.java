@@ -7,6 +7,20 @@ package Threads_L.可重入锁.ReentrantLock_L;
 // 可重入降低了编程复杂性
 public class WhatReentrant {
     public static void main(String[] args) {
+
+        Object obj = new Object();
+        new Thread(() -> {
+
+        }).start();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        }).start();
+
+
         new Thread(new Runnable() {
             @Override
             public void run() {
